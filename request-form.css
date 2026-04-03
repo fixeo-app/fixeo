@@ -1,0 +1,221 @@
+/* Modal publier une demande — optimisé conversion, mobile-first */
+.request-modal {
+  max-width: 560px;
+  width: calc(100% - 24px);
+  padding: 22px;
+  transform: translate(-50%, -58%) scale(0.985);
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.request-modal.open {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.request-modal-header {
+  align-items: flex-start;
+  margin-bottom: 18px;
+}
+
+.request-modal-header h3 {
+  margin: 0;
+  font-size: 1.28rem;
+  line-height: 1.25;
+}
+
+.request-modal-subtitle {
+  margin: 8px 0 0;
+  color: rgba(255,255,255,0.64);
+  font-size: 0.92rem;
+  line-height: 1.55;
+}
+
+.request-modal-shell,
+.request-form,
+.request-success {
+  display: grid;
+  gap: 14px;
+}
+
+.request-field {
+  display: grid;
+  gap: 8px;
+}
+
+.request-field label,
+.request-label {
+  font-size: 0.84rem;
+  font-weight: 700;
+  color: rgba(255,255,255,0.9);
+}
+
+.request-optional {
+  color: rgba(255,255,255,0.42);
+  font-weight: 600;
+}
+
+.request-field input,
+.request-field select {
+  width: 100%;
+  min-height: 56px;
+  border-radius: 16px;
+  border: 1px solid rgba(255,255,255,0.12);
+  background: rgba(255,255,255,0.06);
+  color: #fff;
+  padding: 15px 16px;
+  font: inherit;
+  outline: none;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.03);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, background 0.2s ease, transform 0.2s ease;
+}
+
+.request-field input::placeholder {
+  color: rgba(255,255,255,0.42);
+}
+
+.request-field select option {
+  color: #111;
+}
+
+.request-field input:focus,
+.request-field select:focus {
+  border-color: rgba(225,48,108,0.46);
+  background: rgba(255,255,255,0.085);
+  box-shadow: 0 0 0 4px rgba(225,48,108,0.10), 0 12px 28px rgba(0,0,0,0.22);
+}
+
+.request-choice-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.request-choice-card {
+  position: relative;
+  display: grid;
+  gap: 4px;
+  padding: 14px 14px 13px;
+  border-radius: 16px;
+  border: 1px solid rgba(255,255,255,0.12);
+  background: rgba(255,255,255,0.05);
+  cursor: pointer;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, background 0.2s ease, transform 0.2s ease;
+}
+
+.request-choice-card:hover {
+  background: rgba(255,255,255,0.07);
+  box-shadow: 0 10px 22px rgba(0,0,0,0.16);
+  transform: translateY(-1px);
+}
+
+.request-choice-card input {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.request-choice-title {
+  color: #fff;
+  font-size: 0.96rem;
+  font-weight: 800;
+}
+
+.request-choice-meta {
+  color: rgba(255,255,255,0.56);
+  font-size: 0.78rem;
+  line-height: 1.4;
+}
+
+.request-choice-card:has(input:checked) {
+  border-color: rgba(225,48,108,0.42);
+  background: linear-gradient(180deg, rgba(225,48,108,0.12), rgba(255,255,255,0.05));
+  box-shadow: 0 0 0 4px rgba(225,48,108,0.08), 0 12px 26px rgba(0,0,0,0.18);
+}
+
+.request-submit-btn,
+.request-secondary-btn,
+.request-whatsapp-btn {
+  width: 100%;
+  min-height: 58px;
+  border-radius: 16px;
+  justify-content: center;
+  font-size: 1rem;
+  font-weight: 800;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, opacity 0.2s ease;
+}
+
+.request-submit-btn:hover {
+  transform: translateY(-1px);
+}
+
+.request-trust-copy {
+  display: grid;
+  gap: 5px;
+  justify-items: center;
+  text-align: center;
+  color: rgba(255,255,255,0.58);
+  font-size: 0.82rem;
+  line-height: 1.55;
+}
+
+.request-success {
+  text-align: center;
+  padding-top: 4px;
+}
+
+.request-success-icon {
+  width: 64px;
+  height: 64px;
+  margin: 0 auto;
+  border-radius: 18px;
+  display: grid;
+  place-items: center;
+  font-size: 1.6rem;
+  background: linear-gradient(135deg, rgba(225,48,108,0.22), rgba(64,93,230,0.18));
+  border: 1px solid rgba(255,255,255,0.14);
+  box-shadow: 0 16px 36px rgba(0,0,0,0.28);
+}
+
+.request-success h4 {
+  margin: 4px 0 0;
+  font-size: 1.1rem;
+  line-height: 1.45;
+}
+
+.request-success p {
+  margin: 0;
+  color: rgba(255,255,255,0.68);
+  line-height: 1.7;
+}
+
+.request-secondary-btn {
+  background: rgba(255,255,255,0.07);
+  border: 1px solid rgba(255,255,255,0.12);
+  color: #fff;
+}
+
+@media (max-width: 640px) {
+  .request-modal {
+    width: calc(100% - 16px);
+    padding: 18px 16px;
+    max-height: min(88vh, 760px);
+  }
+
+  .request-choice-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .request-field input,
+  .request-field select,
+  .request-submit-btn,
+  .request-secondary-btn {
+    width: 100%;
+  }
+}
+
+
+.request-whatsapp-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
