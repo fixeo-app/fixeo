@@ -1,0 +1,19 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "rewrites": [
+    { "source": "/api/artisans/recommended", "destination": "/api/artisans/recommended.json" },
+    { "source": "/api/artisans/top", "destination": "/api/artisans/top.json" },
+    { "source": "/api/marketplace/artisans", "destination": "/api/marketplace/artisans.json" },
+    { "source": "/demandes", "destination": "/demandes/index.html" }
+  ],
+  "headers": [
+    {
+      "source": "/api/(.*)",
+      "headers": [
+        { "key": "Access-Control-Allow-Origin", "value": "*" },
+        { "key": "Cache-Control", "value": "public, max-age=300" }
+      ]
+    }
+  ]
+}

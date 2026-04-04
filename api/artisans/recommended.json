@@ -1,0 +1,44 @@
+{
+  "id": 4,
+  "name": "Fatima Zahra",
+  "initials": "FZ",
+  "avatar": null,
+  "category": "nettoyage",
+  "city": "Marrakech",
+  "lat": 31.638,
+  "lng": -8.008,
+  "rating": 4.9,
+  "reviewCount": 210,
+  "trustScore": 99,
+  "priceFrom": 80,
+  "priceUnit": "h",
+  "availability": "available",
+  "bio": {
+    "fr": "Entreprise de nettoyage professionnelle, résidentiel & commercial.",
+    "ar": "شركة تنظيف احترافية للمساكن والأعمال.",
+    "en": "Professional cleaning company, residential & commercial."
+  },
+  "badges": [
+    "verified",
+    "top_rated",
+    "legendary"
+  ],
+  "skills": [
+    "Nettoyage fin de chantier",
+    "Entretien",
+    "Désinfection",
+    "Vitrerie"
+  ],
+  "portfolio": [
+    "🧹",
+    "✨",
+    "🧽",
+    "🪣"
+  ],
+  "phone": "212600000004",
+  "email": "fatima@fixeo.ma",
+  "xp": 4850,
+  "level": 6,
+  "responseTime": 5,
+  "status": "active"
+}

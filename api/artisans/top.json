@@ -1,0 +1,264 @@
+[
+  {
+    "id": 4,
+    "name": "Fatima Zahra",
+    "initials": "FZ",
+    "avatar": null,
+    "category": "nettoyage",
+    "city": "Marrakech",
+    "lat": 31.638,
+    "lng": -8.008,
+    "rating": 4.9,
+    "reviewCount": 210,
+    "trustScore": 99,
+    "priceFrom": 80,
+    "priceUnit": "h",
+    "availability": "available",
+    "bio": {
+      "fr": "Entreprise de nettoyage professionnelle, résidentiel & commercial.",
+      "ar": "شركة تنظيف احترافية للمساكن والأعمال.",
+      "en": "Professional cleaning company, residential & commercial."
+    },
+    "badges": [
+      "verified",
+      "top_rated",
+      "legendary"
+    ],
+    "skills": [
+      "Nettoyage fin de chantier",
+      "Entretien",
+      "Désinfection",
+      "Vitrerie"
+    ],
+    "portfolio": [
+      "🧹",
+      "✨",
+      "🧽",
+      "🪣"
+    ],
+    "phone": "212600000004",
+    "email": "fatima@fixeo.ma",
+    "xp": 4850,
+    "level": 6,
+    "responseTime": 5,
+    "status": "active"
+  },
+  {
+    "id": 1,
+    "name": "Karim Benali",
+    "initials": "KB",
+    "avatar": null,
+    "category": "plomberie",
+    "city": "Casablanca",
+    "lat": 33.589,
+    "lng": -7.633,
+    "rating": 4.9,
+    "reviewCount": 127,
+    "trustScore": 96,
+    "priceFrom": 150,
+    "priceUnit": "h",
+    "availability": "available",
+    "bio": {
+      "fr": "Plombier certifié avec 12 ans d'expérience. Spécialisé en rénovation et urgences 24/7.",
+      "ar": "سباك معتمد بخبرة 12 عاماً.",
+      "en": "12 years certified plumber, 24/7 emergency."
+    },
+    "badges": [
+      "verified",
+      "pro",
+      "responsive"
+    ],
+    "skills": [
+      "Fuite d'eau",
+      "Chauffe-eau",
+      "Salle de bain",
+      "Tuyaux"
+    ],
+    "portfolio": [
+      "🔧",
+      "🚿",
+      "🪠",
+      "💧"
+    ],
+    "phone": "212600000001",
+    "email": "karim@fixeo.ma",
+    "xp": 1850,
+    "level": 4,
+    "responseTime": 8,
+    "status": "active"
+  },
+  {
+    "id": 11,
+    "name": "Samir Benhaddou",
+    "initials": "SB",
+    "avatar": null,
+    "category": "climatisation",
+    "city": "Marrakech",
+    "lat": 31.645,
+    "lng": -8.015,
+    "rating": 4.9,
+    "reviewCount": 88,
+    "trustScore": 93,
+    "priceFrom": 180,
+    "priceUnit": "h",
+    "availability": "available",
+    "bio": {
+      "fr": "Expert climatisation & énergies renouvelables. Installation, entretien et dépannage.",
+      "ar": "خبير تكييف وطاقات متجددة لجميع أنواع الأجهزة.",
+      "en": "AC & renewable energy expert — installation, maintenance and repair."
+    },
+    "badges": [
+      "verified",
+      "top_rated",
+      "pro"
+    ],
+    "skills": [
+      "Climatisation",
+      "Pompe à chaleur",
+      "Panneaux solaires",
+      "VMC"
+    ],
+    "portfolio": [
+      "❄️",
+      "☀️",
+      "🌡️",
+      "💨"
+    ],
+    "phone": "212600000011",
+    "email": "samir@fixeo.ma",
+    "xp": 2200,
+    "level": 5,
+    "responseTime": 10,
+    "status": "active"
+  },
+  {
+    "id": 2,
+    "name": "Sara Doukkali",
+    "initials": "SD",
+    "avatar": null,
+    "category": "peinture",
+    "city": "Casablanca",
+    "lat": 33.595,
+    "lng": -7.619,
+    "rating": 4.8,
+    "reviewCount": 98,
+    "trustScore": 91,
+    "priceFrom": 120,
+    "priceUnit": "h",
+    "availability": "available",
+    "bio": {
+      "fr": "Peintre décoratrice avec un œil artistique pour les espaces modernes.",
+      "ar": "رسامة ديكور بعين فنية للمساحات العصرية.",
+      "en": "Decorative painter with artistic eye for modern spaces."
+    },
+    "badges": [
+      "verified",
+      "top_rated",
+      "friendly"
+    ],
+    "skills": [
+      "Peinture intérieure",
+      "Décoration",
+      "Enduit",
+      "Ravalement"
+    ],
+    "portfolio": [
+      "🎨",
+      "🖌️",
+      "🏠",
+      "✨"
+    ],
+    "phone": "212600000002",
+    "email": "sara@fixeo.ma",
+    "xp": 1200,
+    "level": 3,
+    "responseTime": 12,
+    "status": "active"
+  },
+  {
+    "id": 3,
+    "name": "Omar Tahiri",
+    "initials": "OT",
+    "avatar": null,
+    "category": "electricite",
+    "city": "Rabat",
+    "lat": 34.02,
+    "lng": -6.841,
+    "rating": 4.7,
+    "reviewCount": 85,
+    "trustScore": 88,
+    "priceFrom": 180,
+    "priceUnit": "h",
+    "availability": "busy",
+    "bio": {
+      "fr": "Électricien agréé, installations aux normes NFC 15-100.",
+      "ar": "كهربائي معتمد وفق المعايير الدولية.",
+      "en": "Licensed electrician, NFC 15-100 compliant installations."
+    },
+    "badges": [
+      "verified",
+      "expert"
+    ],
+    "skills": [
+      "Tableau électrique",
+      "Prises",
+      "Éclairage",
+      "Domotique"
+    ],
+    "portfolio": [
+      "⚡",
+      "💡",
+      "🔌",
+      "🏗️"
+    ],
+    "phone": "212600000003",
+    "email": "omar@fixeo.ma",
+    "xp": 2100,
+    "level": 5,
+    "responseTime": 20,
+    "status": "active"
+  },
+  {
+    "id": 7,
+    "name": "Youssef Kadi",
+    "initials": "YK",
+    "avatar": null,
+    "category": "bricolage",
+    "city": "Tanger",
+    "lat": 35.759,
+    "lng": -5.834,
+    "rating": 4.7,
+    "reviewCount": 91,
+    "trustScore": 87,
+    "priceFrom": 130,
+    "priceUnit": "h",
+    "availability": "available",
+    "bio": {
+      "fr": "Bricoleur polyvalent, petits travaux & montage de meubles.",
+      "ar": "حرفي متعدد المهارات للأعمال الصغيرة.",
+      "en": "Versatile handyman for small jobs & furniture assembly."
+    },
+    "badges": [
+      "verified",
+      "friendly"
+    ],
+    "skills": [
+      "Montage meubles",
+      "Fixations",
+      "Petits travaux",
+      "Carrelage"
+    ],
+    "portfolio": [
+      "🔨",
+      "🪛",
+      "🪚",
+      "🔩"
+    ],
+    "phone": "212600000007",
+    "email": "youssef@fixeo.ma",
+    "xp": 1100,
+    "level": 3,
+    "responseTime": 18,
+    "status": "active"
+  }
+]

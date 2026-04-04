@@ -1,0 +1,31 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg1" x1="0" y1="0" x2="1200" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1B1B2F"/>
+      <stop offset="1" stop-color="#16213E"/>
+    </linearGradient>
+    <linearGradient id="before1" x1="0" y1="0" x2="550" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4B5563"/>
+      <stop offset="1" stop-color="#1F2937"/>
+    </linearGradient>
+    <linearGradient id="after1" x1="650" y1="0" x2="1200" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22C55E"/>
+      <stop offset="1" stop-color="#06B6D4"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" rx="36" fill="url(#bg1)"/>
+  <rect x="60" y="80" width="490" height="740" rx="28" fill="url(#before1)"/>
+  <rect x="650" y="80" width="490" height="740" rx="28" fill="url(#after1)"/>
+  <rect x="175" y="210" width="260" height="260" rx="130" fill="#9CA3AF" fill-opacity="0.15" stroke="#D1D5DB" stroke-width="10"/>
+  <path d="M305 180V500" stroke="#E5E7EB" stroke-width="24" stroke-linecap="round"/>
+  <path d="M248 266C248 239.49 269.49 218 296 218H314C340.51 218 362 239.49 362 266V300H248V266Z" fill="#E5E7EB" fill-opacity="0.95"/>
+  <path d="M785 210H1005" stroke="#ECFEFF" stroke-width="28" stroke-linecap="round"/>
+  <path d="M815 330H975" stroke="#ECFEFF" stroke-width="18" stroke-linecap="round"/>
+  <path d="M775 500C775 431.517 830.517 376 899 376H911C979.483 376 1035 431.517 1035 500V548H775V500Z" fill="#ECFEFF" fill-opacity="0.92"/>
+  <path d="M893 548V682" stroke="#ECFEFF" stroke-width="18" stroke-linecap="round"/>
+  <rect x="90" y="108" width="120" height="44" rx="22" fill="#111827" fill-opacity="0.55"/>
+  <rect x="680" y="108" width="132" height="44" rx="22" fill="#0B1022" fill-opacity="0.28"/>
+  <text x="150" y="138" text-anchor="middle" fill="#F9FAFB" font-size="28" font-family="Arial, sans-serif" font-weight="700">Avant</text>
+  <text x="746" y="138" text-anchor="middle" fill="#F9FAFB" font-size="28" font-family="Arial, sans-serif" font-weight="700">Après</text>
+  <text x="600" y="790" text-anchor="middle" fill="#F9FAFB" font-size="44" font-family="Arial, sans-serif" font-weight="700">Réparation fuite douche</text>
+</svg>
